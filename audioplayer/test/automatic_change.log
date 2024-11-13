@@ -1,0 +1,15 @@
+I/hagodaemon(  281): 20240415 121613.946638 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:1859] componentOnStateChange: [OMX_StatePause]->[OMX_StateExecuting]
+I/hagodaemon(  281): 20240415 121614.159940 [INFO] [GapPlayerCmdHandlerPlay.c:533] [tid:496] Preparing next track.
+I/hagodaemon(  281): 20240415 121614.198620 [INFO] [DmcOmxDemuxerCmp.c:2487] [tid:1857] content URI: /data/mnt/internal/MUSIC/1.flac
+I/hagodaemon(  281): 20240415 121618.351066 [INFO] [DmcAndroidAudioRendererCmp.c:1305] [tid:1859] EOS received. nFilledLen = [13896], nTimeStamp = [95514110]
+I/hagodaemon(  281): 20240415 121622.421867 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:1859] componentOnStateChange: [OMX_StateExecuting]->[OMX_StatePause]
+I/hagodaemon(  281): 20240415 121822.444717 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:1859] componentOnStateChange: [OMX_StatePause]->[OMX_StateExecuting]
+
+track is playing
+SLEEP FOR 500
+
+I/hagodaemon(  281): 20240415 121948.285398 [INFO] [GapPlayerCmdHandlerPlay.c:533] [tid:496] Preparing next track.
+I/hagodaemon(  281): 20240415 121948.290347 [INFO] [DmcOmxDemuxerCmp.c:2487] [tid:1857] content URI: /data/mnt/internal/MUSIC/2.flac
+I/hagodaemon(  281): 20240415 121953.573485 [INFO] [DmcAndroidAudioRendererCmp.c:1305] [tid:1859] EOS received. nFilledLen = [11640], nTimeStamp = [95526892]
+I/hagodaemon(  281): 20240415 121822.444717 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:1859] componentOnStateChange: [OMX_StateExecuting]->[OMX_StatePause]
+newline for tests

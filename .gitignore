@@ -1,0 +1,8 @@
+.idea
+*.swp
+nw-scrob*
+vendor
+*.upx
+misc/fixes/adb
+*.exe
+scrobbler

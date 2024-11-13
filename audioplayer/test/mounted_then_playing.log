@@ -1,0 +1,96 @@
+01-08 16:44:42.638 I/hagodaemon(  301): [D|  321|b6b8c460|SMGR|StorageMgrImpl.cc:1581] StorageStatus: storage[Internal], status[Checking]
+01-08 16:44:42.661 I/hagodaemon(  301): ** /emmc@contents
+01-08 16:44:42.663 I/hagodaemon(  301): /emmc@contents: check result is clean
+01-08 16:44:42.663 I/hagodaemon(  301): FILESYSTEM CLEAN; SKIPPING CHECKS
+01-08 16:44:42.665 I/hagodaemon(  301): [D|  321|b6b8c460|SMGR|StorageMgrImpl.cc:1581] StorageStatus: storage[Internal], status[Mounting]
+01-08 16:44:42.680 I/hagodaemon(  301): [N|  321|b6b8c460|SMGR|StorageVolume.cc:1058] Not exFAT or failed to access device /emmc@contents
+01-08 16:44:42.725 I/hagodaemon(  301): [D|  321|b6b8c460|SMGR|StorageMgrImpl.cc:1581] StorageStatus: storage[Internal], status[Mounted]
+01-08 16:44:42.771 I/hagodaemon(  280): [I|  293|b3a3f460|MDSTRSRV|MediaStoreServiceService.cc:393|virtual void pst::services::MediaStoreServiceService::MediaScanner_Scan(const IMediaStoreService::MediaScanner_Scan_Request &, IMediaStoreService::MediaScanner_Scan_Response &)] MediaStoreService locked.
+01-08 16:44:44.100 I/hagodaemon(  280): [I|  293|b16ff460|MDSTRSRV|MediaStoreServiceService.cc:454|auto pst::services::MediaStoreServiceService::MediaScanner_Scan(const IMediaStoreService::MediaScanner_Scan_Request &, IMediaStoreService::MediaScanner_Scan_Response &)::(anonymous class)::operator()() const] MediaStoreService unlocked.
+01-08 16:44:44.146 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:486|PlayController_SetTrackSequence] Enter
+01-08 16:44:44.147 I/hagodaemon(  280): [I|  293|b5044460|PLYRSRVC|PlayerServiceService.cc:764|operator()] Enter
+01-08 16:44:44.150 I/hagodaemon(  280): [I|  293|b5044460|PLYRSRVC|PlayerServiceService.cc:764|operator()] Exit
+01-08 16:44:44.150 I/hagodaemon(  280): 20180108 164444.149732 [INFO] [GapChainFactory.c:452] [tid:411] demuxer cmp name = [OMX.SONY.DEMUX.MP3]
+01-08 16:44:44.151 I/hagodaemon(  280): 20180108 164444.150986 [INFO] [DmcOmxDemuxerCmp.c:2487] [tid:671] content URI: /data/mnt/internal/MUSIC/01 - Resurrection.mp3
+01-08 16:44:44.161 I/hagodaemon(  280): 20180108 164444.160956 [INFO] [DmcOmxSoundEffectCmp.c:1037] [tid:672] inSamplingRate:  [44100]->[44100]
+01-08 16:44:44.162 I/hagodaemon(  280): 20180108 164444.161768 [INFO] [DmcOmxSoundEffectCmp.c:1038] [tid:672] inChannels:      [2]->[2]
+01-08 16:44:44.163 I/hagodaemon(  280): 20180108 164444.162456 [INFO] [DmcOmxSoundEffectCmp.c:1039] [tid:672] inBitsPerSample: [16]->[16]
+01-08 16:44:44.171 I/hagodaemon(  280): 20180108 164444.171436 [INFO] [DmcOmxDemuxerCmp.c:5568] [tid:671] componentOnStateChange: [OMX_StateLoaded]->[OMX_StateIdle]
+01-08 16:44:44.172 I/hagodaemon(  280): 20180108 164444.172330 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:674] componentOnStateChange: [OMX_StateLoaded]->[OMX_StateIdle]
+01-08 16:44:44.173 I/hagodaemon(  280): 20180108 164444.173281 [INFO] [GapPlayer.c:451] [tid:390] GapPlayer_setSpeedEx() speed=1/1,0
+01-08 16:44:44.176 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:506|PlayController_SetTrackSequence] Exit
+01-08 16:44:44.177 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:373|PlayController_ChangePlayState] Enter
+01-08 16:44:44.178 I/hagodaemon(  280): 20180108 164444.177775 [INFO] [GapPlayer.c:502] [tid:390] GapPlayer_pause()
+01-08 16:44:44.178 I/hagodaemon(  280): 20180108 164444.178278 [INFO] [DmcOmxDemuxerCmp.c:5568] [tid:671] componentOnStateChange: [OMX_StateIdle]->[OMX_StatePause]
+01-08 16:44:44.179 I/hagodaemon(  280): 20180108 164444.178856 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:674] componentOnStateChange: [OMX_StateIdle]->[OMX_StatePause]
+01-08 16:44:44.179 I/hagodaemon(  280): 20180108 164444.179057 [INFO] [WmSoundService.cpp:408] [tid:674] [SoundService] nChannels [2], nBitPerSample [16], nSamplingRate [44100]
+01-08 16:44:44.179 I/hagodaemon(  280): 20180108 164444.179220 [INFO] [WmSoundService.cpp:418] [tid:674] [SoundService][Original] eEncoding [OMX_AUDIO_CodingMP3]
+01-08 16:44:44.179 I/hagodaemon(  280): 20180108 164444.179350 [INFO] [WmSoundService.cpp:439] [tid:674] [SoundService][Original] nChannels [2], nBitPerSample [16], nSamplingRate [44100]
+01-08 16:44:44.179 I/hagodaemon(  280): 20180108 164444.179510 [INFO] [WmSoundService.cpp:442] [tid:674] [SoundService][Original] bVbr [0], nBitRate [320000]
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:86] ----- AudioTrack[CreateTrack by PID[293]] -----
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:88] [Tracks]
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:89]   type: Music
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:113] [Codecs]
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:114]   codec: LPCM
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:120]   f_samp: 44100
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:125]   bits_per_samp: 16
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:128] [Channels]
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:129]   num_of_ch: 2
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:130]   ch_config: Stereo
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:141] [Buffers]
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:142]   type: Int
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:143]   bytes: 2
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:144]   mode: Interleaved
+01-08 16:44:44.183 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:146] [PreAudioInfo]
+01-08 16:44:44.184 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:148]   codec_type: 2
+01-08 16:44:44.184 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:150]   bitrate_type: 1
+01-08 16:44:44.184 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:151]   bitrate_value: 320
+01-08 16:44:44.184 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:152]   f_samp: 44100
+01-08 16:44:44.184 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:153]   bits_per_samp: 16
+01-08 16:44:44.184 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:155]   ch_config: Invalid
+01-08 16:44:44.184 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceImpl.cc:298] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_2] has been created
+01-08 16:44:44.186 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:386|PlayController_ChangePlayState] Exit
+01-08 16:44:44.204 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:373|PlayController_ChangePlayState] Enter
+01-08 16:44:44.205 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:386|PlayController_ChangePlayState] Exit
+01-08 16:44:44.206 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:466|PlayController_SeekTime] Enter
+01-08 16:44:44.207 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:480|PlayController_SeekTime] Exit
+01-08 16:44:49.939 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:534|PlayController_ResetPlaySpeed] Enter
+01-08 16:44:49.940 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:545|PlayController_ResetPlaySpeed] Exit
+01-08 16:44:49.941 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:373|PlayController_ChangePlayState] Enter
+01-08 16:44:49.942 I/hagodaemon(  280): 20180108 164449.941966 [INFO] [GapPlayer.c:469] [tid:390] GapPlayer_play()
+01-08 16:44:49.944 I/hagodaemon(  280): 20180108 164449.943310 [INFO] [DmcOmxDemuxerCmp.c:5568] [tid:671] componentOnStateChange: [OMX_StatePause]->[OMX_StateExecuting]
+01-08 16:44:50.047 I/hagodaemon(  280): 20180108 164450.045517 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:674] componentOnStateChange: [OMX_StatePause]->[OMX_StateExecuting]
+01-08 16:44:50.047 I/hagodaemon(  286): [I|  324|b3e35460|SS  |SoundServiceImpl.cc:512] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_2] received CtrlPacket[track::play]
+01-08 16:44:50.049 I/hagodaemon(  280): 20180108 164450.046654 [INFO] [DmcOmxDemuxerCmp.c:4693] [tid:671] audio buffer count = [31/32]
+01-08 16:44:50.049 I/hagodaemon(  280): 20180108 164450.048468 [INFO] [WmSoundService.cpp:133] [tid:677] WriteWatcher started.
+01-08 16:44:50.080 I/hagodaemon(  286): [I|  324|b3e35460|SS  |PreFilters.cc:515] PreFilters Configuration: DO_NOT_PROCESS
+01-08 16:44:50.096 I/hagodaemon(  286): [I|  324|b3e35460|SS  |SoundServiceImpl.cc:1160] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_2] fades in packet
+01-08 16:44:50.097 I/hagodaemon(  286): [D|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:222] [hw:0,4]
+01-08 16:44:50.098 I/hagodaemon(  286): [T|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:335] !!! not opened
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:26] ----- AudioHalParam [master] -----
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:27] FSamp: [44100]
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:28] NumOfCh: [2]
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:29] ChConfig: [2]
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:30] BufferType: [1]
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:31] BytesOfIntBuffer: [2]
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:32] BufferMode: [1]
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1504] fs = 44100 [Hz]
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1505] channels = 2
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1506] buffer time = 1000090
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1507] period time = 125011
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1508] buffer frames = 0
+01-08 16:44:50.098 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1509] period frames = 0
+01-08 16:44:50.099 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:386|PlayController_ChangePlayState] Exit
+01-08 16:44:50.111 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1533] period size = 5513 [frames]
+01-08 16:44:50.111 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1534] buffer size = 44104 [frames]
+01-08 16:44:50.111 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1535] latency = 1000090 [us]
+01-08 16:44:50.111 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1761] start_threshold = 44104
+01-08 16:44:50.111 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1762] stop_threshold = 44104
+01-08 16:44:50.111 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1763] avail_min = -1
+01-08 16:44:50.111 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1764] start_delay = 0
+01-08 16:44:50.111 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1765] stop_delay = 0
+01-08 16:44:50.111 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:771] frames_to_bytes = 4
+01-08 16:44:50.111 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:772] bytes_per_period = 22052
+01-08 16:44:50.111 I/hagodaemon(  286): [T|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:478] not opened
+track playing
+SLEEP FOR 500

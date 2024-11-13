@@ -1,0 +1,279 @@
+01-08 16:02:37.012 I/hagodaemon(  279): USBA: initialize.
+01-08 16:02:37.012 I/hagodaemon(  279): USBA: enable host.
+01-08 16:02:37.013 I/hagodaemon(  274): [N|  295|b6cd2000|POWR|PowerService.cc:1472] SetCpuPowerMode: kUnknown->kDefault
+01-08 16:02:37.094 I/hagodaemon(  287): [I|  318|b6c5d000|NC  |NcServiceImpl.cc:57] NcServiceImpl
+01-08 16:02:37.186 I/hagodaemon(  288): [I|  317|b6c83000|VOL |VolumeAdlerOut.cc:114] VolumeAdlerOut
+01-08 16:02:37.318 I/hagodaemon(  290): [i2f] Init I2F (ver. 0000.10.00)
+01-08 16:02:37.318 I/hagodaemon(  290): [lvdet] Init LVDET (ver. 0000.09.00)
+01-08 16:02:37.318 I/hagodaemon(  290): [lvdet] Init LVDET (ver. 0000.09.00)
+01-08 16:02:37.318 I/hagodaemon(  290): [lvdet] Init LVDET (ver. 0000.09.00)
+01-08 16:02:37.584 I/hagodaemon(  277): [N|  313|b4415460|KEYC|KeyCompDevFile.cc:557|bool KeyComp::KeyCompManager::KeyCompDriver::CheckPortKey(const KeyComp::SysFsKeyInfo &, std::vector<KeyInfo> *)] code=65571 value=0
+01-08 16:02:37.584 I/hagodaemon(  277): [N|  313|b4415460|KEYC|KeyCompDevFile.cc:557|bool KeyComp::KeyCompManager::KeyCompDriver::CheckPortKey(const KeyComp::SysFsKeyInfo &, std::vector<KeyInfo> *)] code=65585 value=1
+01-08 16:02:37.584 I/hagodaemon(  277): [N|  313|b4415460|KEYC|KeyCompImp.cc:295|void KeyComp::KeyCompImp::CheckCurrentStatus(bool)] DRCODE=65571 DRVAL=0
+01-08 16:02:37.584 I/hagodaemon(  277): [N|  313|b4415460|KEYC|KeyCompImp.cc:295|void KeyComp::KeyCompImp::CheckCurrentStatus(bool)] DRCODE=65585 DRVAL=1
+01-08 16:02:38.016 I/hagodaemon(  272): SFWK: All services initialized!
+01-08 16:02:38.030 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:142|OnRun] Enter
+01-08 16:02:38.056 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:149|OnRun] ATRAC disabled.
+01-08 16:02:38.060 I/hagodaemon(  296): [I|  315|b6c58000|FMGR|FuncMgrServiceServiceImpl.cc:66] BootFuncMode is [MediaPlay]
+01-08 16:02:38.074 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:162|OnRun] VIDEO disabled.
+01-08 16:02:38.074 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:169|OnRun] Exit
+01-08 16:02:38.097 I/hagodaemon(  301): [T|  321|b6d07000|SMGR|StorageMgrImpl.cc:253] InformEnabledMscHost(enabled: [0], by_boot: [1])
+01-08 16:02:38.099 I/hagodaemon(  301): [T|  321|b6d07000|SMGR|StorageMgrImpl.cc:311] InformEnabledSdCard(card_no: [0], enabled: [0], by_boot: [1])
+01-08 16:02:38.103 I/hagodaemon(  286): [i2f] Init I2F (ver. 0000.10.00)
+01-08 16:02:38.103 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |DseeAi.cc:53] version of libdsxlib: [3.0.7]
+01-08 16:02:38.103 I/hagodaemon(  301): [T|  321|b6d07000|SMGR|StorageMgrImpl.cc:311] InformEnabledSdCard(card_no: [1], enabled: [0], by_boot: [1])
+01-08 16:02:38.213 I/hagodaemon(  288): [D|  317|b6c83000|VOL |VolumeAdlerOut.cc:213] load previous hp [SeHeadphone]
+01-08 16:02:38.213 I/hagodaemon(  288): [D|  317|b6c83000|VOL |VolumeAdlerOut.cc:903] update avls threshold = [63]
+01-08 16:02:38.225 I/hagodaemon(  301): [D|  321|b6d07000|SMGR|StorageMgrImpl.cc:1581] StorageStatus: storage[Internal], status[Mounted]
+01-08 16:02:38.225 I/hagodaemon(  301): [D|  321|b6d07000|SMGR|StorageMgrImpl.cc:1581] StorageStatus: storage[External0], status[NoMedia]
+01-08 16:02:38.231 I/hagodaemon(  277): [N|  313|b5415460|WMPT|WMPortService.cc:55] SetRemoteCommandReceiver(enabled)
+01-08 16:02:38.257 I/hagodaemon(  286): [T|  324|b6c4f000|SS  |Vpt.cc:56] version of libmodVPT: [2.2.0]
+01-08 16:02:38.316 I/hagodaemon(  291): [D|  309|b6c5e000|CRDD|CardDetectorDevice.cc:54] Find driver [/dev/icx_carddet]
+01-08 16:02:38.317 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:235] ----- starts with device status belows -----
+01-08 16:02:38.317 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[0:LineIn], enabled = [0], connected = [0], rules = [0]
+01-08 16:02:38.317 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[1:BtlHeadphone], enabled = [0], connected = [0], rules = [1]
+01-08 16:02:38.317 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[2:SeHeadphone], enabled = [1], connected = [1], rules = [1]
+01-08 16:02:38.318 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[3:LineOut], enabled = [0], connected = [0], rules = [1]
+01-08 16:02:38.318 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[4:UacDevice], enabled = [0], connected = [0], rules = [1]
+01-08 16:02:38.318 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[5:A2dpSink], enabled = [0], connected = [0], rules = [1]
+01-08 16:02:38.318 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[6:MscHost], enabled = [0], connected = [0], rules = [1]
+01-08 16:02:38.319 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[7:UacHost], enabled = [0], connected = [0], rules = [0]
+01-08 16:02:38.319 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[8:AvrcpTg], enabled = [0], connected = [0], rules = [1]
+01-08 16:02:38.319 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[9:HostCable], enabled = [0], connected = [0], rules = [1]
+01-08 16:02:38.319 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[10:SdCard0], enabled = [0], connected = [0], rules = [1]
+01-08 16:02:38.320 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:242] device[11:SdCard1], enabled = [0], connected = [0], rules = [1]
+01-08 16:02:38.320 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:244] usb_host_suspended = [0]
+01-08 16:02:38.349 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:240|PlayController_New] Enter
+01-08 16:02:38.349 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:253|PlayController_New] Exit
+01-08 16:02:38.350 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:134|OnAddListener] PlayerService-354
+01-08 16:02:38.350 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:272|PlayController_Connect] Enter
+01-08 16:02:38.351 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:283|PlayController_Connect] Exit
+01-08 16:02:38.355 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:240|PlayController_New] Enter
+01-08 16:02:38.355 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:253|PlayController_New] Exit
+01-08 16:02:38.356 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:272|PlayController_Connect] Enter
+01-08 16:02:38.356 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:283|PlayController_Connect] Exit
+01-08 16:02:38.359 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:240|PlayController_New] Enter
+01-08 16:02:38.359 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:253|PlayController_New] Exit
+01-08 16:02:38.360 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:272|PlayController_Connect] Enter
+01-08 16:02:38.361 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:283|PlayController_Connect] Exit
+01-08 16:02:38.380 I/hagodaemon(  289): [D|  310|b6cfd000|VOL |VolumeGlueImpl.cc:97] do analog mute on
+01-08 16:02:38.380 I/hagodaemon(  289): [D|  310|b6cfd000|VOL |VolumeGlueImpl.cc:114] analog mute count: [1]
+01-08 16:02:38.399 I/hagodaemon(  288): [D|  317|b6c83000|VOL |VolumeAdlerOut.cc:312] SetBtlHpConnected connected 0
+01-08 16:02:38.401 I/hagodaemon(  288): [D|  317|b6c83000|VOL |VolumeAdlerOut.cc:326] SetSeHpConnected connected 1
+01-08 16:02:38.401 I/hagodaemon(  288): [D|  317|b6c83000|VOL |VolumeAdlerOut.cc:946] ReconfigureVolumes chg_cmd = [SeHp] output = [Invalid] prevhp = [SeHeadphone] sehp = [1] btlhp = [0] volume = [0]
+01-08 16:02:38.405 I/hagodaemon(  291): [T|  309|b3bb5460|CRDD|CardDetector.cc:170|void carddet::CardDetector::ThreadLoop()] Start Thread
+01-08 16:02:38.472 I/hagodaemon(  286): [realvinyl] Init REALVINYL (ver. 0001.00.00)
+01-08 16:02:38.472 I/hagodaemon(  286): [realvinyl] w_buf_size : 49984 - 49968
+01-08 16:02:38.472 I/hagodaemon(  286): [realvinyl] work_buf   : 0xb3efe1fc (org), 0xb3efe200 (mod)
+01-08 16:02:38.472 I/hagodaemon(  286): [realvinyl] shared_buf : 0xb3f0a53c (org), 0xb3f0a540 (mod)
+01-08 16:02:38.472 I/hagodaemon(  286): [realvinyl] is_reset : 0xb3efe200, packet_count : 0xb3efe204
+01-08 16:02:38.472 I/hagodaemon(  286): [realvinyl] cur_ch_num : 0xb3efe208, cur_fs : 0xb3efe20c
+01-08 16:02:38.472 I/hagodaemon(  286): [realvinyl] vf_vinyl_vib_iirbufp_d[0][0] : 0xb3f07820
+01-08 16:02:38.472 I/hagodaemon(  286): [realvinyl] cur_param : 0xb3f084a0, next_param : 0xb3f094e8
+01-08 16:02:38.474 I/hagodaemon(  286): [f2i] Init F2I (ver. 0000.12.00)
+01-08 16:02:38.475 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:157] ----- Created FilterChain as -----
+01-08 16:02:38.476 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] i2f
+01-08 16:02:38.476 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] dseeai
+01-08 16:02:38.476 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] heq
+01-08 16:02:38.476 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] dynamicnormalizer
+01-08 16:02:38.477 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] attn
+01-08 16:02:38.477 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] eq6band
+01-08 16:02:38.477 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] vpt
+01-08 16:02:38.478 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] clearphase
+01-08 16:02:38.478 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] alc
+01-08 16:02:38.478 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] dcphaselinear
+01-08 16:02:38.479 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] vinylizer
+01-08 16:02:38.479 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |FilterChain.cc:159] f2i
+01-08 16:02:38.775 I/hagodaemon(  297): [I|  320|b5b91460|PMGR|PathMgrServiceServiceImpl.cc:107] OnChangedTunerDeviceState [state=1]
+01-08 16:02:38.863 I/hagodaemon(  297): [I|  320|b6c86000|PMGR|PathMgrServiceServiceImpl.cc:663] current device is changed [SeHeadphone]
+01-08 16:02:38.866 I/hagodaemon(  288): [D|  317|b57cb460|VOL |VolumeServiceService.cc:383] FireVolumeConditionChanged([vol:1, abs:1, 0, 120, rel:1, fixed:0, 4294967295])
+01-08 16:02:38.876 I/hagodaemon(  288): [D|  317|b57cb460|VOL |VolumeAdlerOut.cc:296] current output device [SeHeadphone]
+01-08 16:02:38.877 I/hagodaemon(  288): [D|  317|b57cb460|VOL |VolumeAdlerOut.cc:946] ReconfigureVolumes chg_cmd = [Output] output = [SeHeadphone] prevhp = [SeHeadphone] sehp = [1] btlhp = [0] volume = [0]
+01-08 16:02:38.880 I/hagodaemon(  288): [D|  317|b57cb460|VOL |VolumeServiceService.cc:419] FireAvlsConditionChanged([on:0, thrs:63, adapt:1, work:0])
+01-08 16:02:38.882 I/hagodaemon(  286): [I|  324|b568d460|SS  |SoundServiceEventHandler.cc:299] Handles OutputDevice[output_device=2]
+01-08 16:02:38.887 I/hagodaemon(  286): [I|  324|b568d460|SS  |FilterChain.cc:524] DriverVolTblMode: Off, without Latency adjustment
+01-08 16:02:38.891 I/hagodaemon(  286): [D|  324|b568d460|SS  |DriverVolTblChanger.cc:135] Sets amixer(sound effect, 0)
+01-08 16:02:38.891 I/hagodaemon(  286): [D|  324|b568d460|AHAL|AudioHalAdlerAlsa.cc:653] featured_dsd256_native_out: 0
+01-08 16:02:38.893 I/hagodaemon(  297): [I|  320|b6c86000|PMGR|PathMgrServiceServiceImpl.cc:675] wait for switching audio device
+01-08 16:02:40.194 I/hagodaemon(  289): [D|  310|b6cfd000|VOL |VolumeGlueImpl.cc:105] do analog mute off(restores value)
+01-08 16:02:40.194 I/hagodaemon(  289): [D|  310|b6cfd000|VOL |VolumeGlueImpl.cc:114] analog mute count: [0]
+01-08 16:02:40.195 I/hagodaemon(  297): [I|  320|b6c86000|PMGR|PathMgrServiceServiceImpl.cc:391] path [MediaPlay] was successfully changed
+01-08 16:02:40.196 I/hagodaemon(  296): [I|  315|b6c58000|FMGR|FuncMgrServiceServiceImpl.cc:150] FuncMode [MediaPlay] transition is completed
+01-08 16:02:40.200 I/hagodaemon(  288): [D|  317|b6c83000|VOL |VolumeServiceService.cc:383] FireVolumeConditionChanged([vol:1, abs:1, 0, 120, rel:1, fixed:0, 4294967295])
+01-08 16:02:40.202 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceEventHandler.cc:299] Handles OutputDevice[output_device=2]
+01-08 16:02:40.204 I/hagodaemon(  287): [I|  318|b6c5d000|NC  |NcServiceImpl.cc:859] Setting NcSetting: Off, AsmSetting: Off
+01-08 16:02:40.204 I/hagodaemon(  287): [I|  318|b6c5d000|NC  |NcServiceImpl.cc:867] Config NcEnv: Ainc, NcGain: 0
+01-08 16:02:40.204 I/hagodaemon(  287): [I|  318|b6c5d000|NC  |NcServiceImpl.cc:872] Config AsmEnv: Ambient1, AsmGain: 0
+01-08 16:02:40.207 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceEventHandler.cc:313] Handles Path[path=0]
+01-08 16:02:40.214 I/hagodaemon(  288): [D|  317|b6c83000|VOL |VolumeAdlerOut.cc:296] current output device [SeHeadphone]
+01-08 16:02:40.214 I/hagodaemon(  288): [D|  317|b6c83000|VOL |VolumeAdlerOut.cc:946] ReconfigureVolumes chg_cmd = [Output] output = [SeHeadphone] prevhp = [SeHeadphone] sehp = [1] btlhp = [0] volume = [0]
+01-08 16:02:40.219 I/hagodaemon(  288): [D|  317|b6c83000|VOL |VolumeServiceService.cc:419] FireAvlsConditionChanged([on:0, thrs:63, adapt:1, work:0])
+01-08 16:02:40.803 I/hagodaemon(  287): [D|  318|b6c5d000|NC  |NcServiceImpl.cc:735] ----- current conditions -----
+01-08 16:02:40.803 I/hagodaemon(  287): [D|  318|b6c5d000|NC  |NcServiceImpl.cc:737] HpModel: OTHERS
+01-08 16:02:40.804 I/hagodaemon(  287): [D|  318|b6c5d000|NC  |NcServiceImpl.cc:748] ----- current conditions -----
+01-08 16:02:40.804 I/hagodaemon(  287): [D|  318|b6c5d000|NC  |NcServiceImpl.cc:750] HpModel: AsmNotCapable
+01-08 16:02:40.804 I/hagodaemon(  287): [D|  318|b6c5d000|NC  |NcServiceImpl.cc:752] HpModel: NcNotCapable
+01-08 16:02:40.804 I/hagodaemon(  287): [D|  318|b6c5d000|NC  |NcServiceImpl.cc:754] 5pin hp: Not plugged
+01-08 16:02:40.805 I/hagodaemon(  287): [D|  318|b6c5d000|NC  |NcServiceImpl.cc:756] OutputDevice: SeHp
+01-08 16:02:40.805 I/hagodaemon(  287): [D|  318|b6c5d000|NC  |NcServiceImpl.cc:758] FuncMode: Enabled NC
+01-08 16:02:40.805 I/hagodaemon(  287): [D|  318|b6c5d000|NC  |NcServiceImpl.cc:760] FuncMode: Enabled ASM
+01-08 16:02:40.805 I/hagodaemon(  287): [D|  318|b6c5d000|NC  |NcServiceImpl.cc:762] Driver: can work ASM
+01-08 16:02:40.806 I/hagodaemon(  287): [D|  318|b6c5d000|NC  |NcServiceImpl.cc:764] Driver: can work NC
+01-08 16:02:40.806 I/hagodaemon(  287): [I|  318|b6c5d000|NC  |NcServiceImpl.cc:896] Fires NcStatus: Disabled, AsmStatus: Disabled
+01-08 16:02:40.811 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceEventHandler.cc:336] Handles NcAsmStatus[ncasm=inactive]
+01-08 16:02:40.814 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceEventHandler.cc:362] Handles Volume[volume=0,120]
+01-08 16:02:40.815 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceEventHandler.cc:410] Handles GainMode[btlgainmode=0]
+01-08 16:02:40.818 I/hagodaemon(  272): SFWK: All services started!
+01-08 16:02:40.818 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceEventHandler.cc:432] Handles GainMode[segainmode=0]
+01-08 16:02:40.818 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceEventHandler.cc:313] Handles Path[path=0]
+01-08 16:02:40.818 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceEventHandler.cc:336] Handles NcAsmStatus[ncasm=inactive]
+01-08 16:02:43.441 D/NVRAM   (  145): NVRAM daemon sync start !
+01-08 16:02:43.450 D/NVRAM   (  145): NVRAM daemon sync end !
+01-08 16:02:43.450 D/NVRAM   (  145): NVRAM daemon exits !
+01-08 16:02:45.161 I/hagodaemon(  300): [I|  316|b46ff460|UMGR|UsbMgrImplWmport.cc:260] Do postponed Initial Configuration
+01-08 16:02:45.167 I/hagodaemon(  300): [I|  316|b46ff460|UMGR|UsbMgrImplWmport.cc:773] PowerSuppliedMode [Unrestricted] is set
+01-08 16:02:45.168 I/hagodaemon(  300): [I|  316|b46ff460|UMGR|UsbMgrImplWmport.cc:525] UsbFunction [Msc] is set
+01-08 16:02:45.284 I/hagodaemon(  300): [I|  316|b46ff460|UMGR|UsbMgrImplWmport.cc:553] UsbOtgMode [Device] is set
+01-08 16:02:49.965 I/hagodaemon(  277): [N|  313|b6cbd000|KEYC|KeyCompDevFile.cc:557|bool KeyComp::KeyCompManager::KeyCompDriver::CheckPortKey(const KeyComp::SysFsKeyInfo &, std::vector<KeyInfo> *)] code=65571 value=0
+01-08 16:02:49.965 I/hagodaemon(  277): [N|  313|b6cbd000|KEYC|KeyCompDevFile.cc:557|bool KeyComp::KeyCompManager::KeyCompDriver::CheckPortKey(const KeyComp::SysFsKeyInfo &, std::vector<KeyInfo> *)] code=65585 value=1
+01-08 16:02:49.965 I/hagodaemon(  277): [N|  313|b6cbd000|KEYC|KeyCompImp.cc:295|void KeyComp::KeyCompImp::CheckCurrentStatus(bool)] DRCODE=65571 DRVAL=0
+01-08 16:02:49.965 I/hagodaemon(  277): [N|  313|b6cbd000|KEYC|KeyCompImp.cc:295|void KeyComp::KeyCompImp::CheckCurrentStatus(bool)] DRCODE=65585 DRVAL=1
+01-08 16:02:49.965 I/hagodaemon(  277): [N|  313|b6cbd000|KEYS|KeyService.cc:186|virtual void hgrm::key::KeyService::GetKeyStatus(pst::base::vector<key_packet_t> &)] keycode [35] event [0] driver [1]
+01-08 16:02:49.973 I/hagodaemon(  281): [I|  282|b6c2c000|ONEP|OneTrackPlayerServiceService.cc:204|OnAddListener] Enter
+01-08 16:02:49.973 I/hagodaemon(  281): [I|  282|b6c2c000|ONEP|OneTrackPlayerServiceService.cc:206|OnAddListener] Exit
+01-08 16:02:50.010 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:512|PlayController_SetPlaySpeed] Enter
+01-08 16:02:50.011 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:528|PlayController_SetPlaySpeed] Exit
+01-08 16:02:50.164 D/NfcAdaptation(  354): readConfig Opened base config /system/etc/libnfc-nci.conf
+01-08 16:02:50.186 I/hagodaemon(  298): [I|  322|b5b78460|PWMG|PowerMgrImpl.cc:303] CpuNumBaseFullLocked: 1
+01-08 16:02:53.726 I/logwrapper(   94): /system/xbin/icx_bootanimation terminated by signal 15
+01-08 16:02:54.194 I/hagodaemon(  280): [I|  293|b323f460|MDSTRSRV|MediaStoreServiceService.cc:393|virtual void pst::services::MediaStoreServiceService::MediaScanner_Scan(const IMediaStoreService::MediaScanner_Scan_Request &, IMediaStoreService::MediaScanner_Scan_Response &)] MediaStoreService locked.
+01-08 16:02:55.865 I/hagodaemon(  280): [I|  293|b16ff460|MDSTRSRV|MediaStoreServiceService.cc:454|auto pst::services::MediaStoreServiceService::MediaScanner_Scan(const IMediaStoreService::MediaScanner_Scan_Request &, IMediaStoreService::MediaScanner_Scan_Response &)::(anonymous class)::operator()() const] MediaStoreService unlocked.
+01-08 16:02:56.061 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:486|PlayController_SetTrackSequence] Enter
+01-08 16:02:56.114 I/hagodaemon(  280): [I|  293|b5084460|PLYRSRVC|PlayerServiceService.cc:764|operator()] Enter
+01-08 16:02:56.117 I/hagodaemon(  280): [I|  293|b5084460|PLYRSRVC|PlayerServiceService.cc:764|operator()] Exit
+01-08 16:02:56.117 I/hagodaemon(  280): 20180108 160256.116879 [INFO] [GapChainFactory.c:452] [tid:409] demuxer cmp name = [OMX.SONY.DEMUX.MP3]
+01-08 16:02:56.121 I/hagodaemon(  280): 20180108 160256.120020 [INFO] [DmcOmxDemuxerCmp.c:2487] [tid:640] content URI: /data/mnt/internal/MUSIC/01 - Resurrection.mp3
+01-08 16:02:56.139 I/hagodaemon(  280): 20180108 160256.139027 [INFO] [DmcOmxSoundEffectCmp.c:1037] [tid:641] inSamplingRate:  [44100]->[44100]
+01-08 16:02:56.140 I/hagodaemon(  280): 20180108 160256.139880 [INFO] [DmcOmxSoundEffectCmp.c:1038] [tid:641] inChannels:      [2]->[2]
+01-08 16:02:56.141 I/hagodaemon(  280): 20180108 160256.140581 [INFO] [DmcOmxSoundEffectCmp.c:1039] [tid:641] inBitsPerSample: [16]->[16]
+01-08 16:02:56.166 I/hagodaemon(  280): 20180108 160256.165767 [INFO] [DmcOmxDemuxerCmp.c:5568] [tid:640] componentOnStateChange: [OMX_StateLoaded]->[OMX_StateIdle]
+01-08 16:02:56.167 I/hagodaemon(  280): 20180108 160256.167127 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:643] componentOnStateChange: [OMX_StateLoaded]->[OMX_StateIdle]
+01-08 16:02:56.168 I/hagodaemon(  280): 20180108 160256.167911 [INFO] [GapPlayer.c:451] [tid:390] GapPlayer_setSpeedEx() speed=1/1,0
+01-08 16:02:56.170 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:506|PlayController_SetTrackSequence] Exit
+01-08 16:02:56.171 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:373|PlayController_ChangePlayState] Enter
+01-08 16:02:56.171 I/hagodaemon(  280): 20180108 160256.171417 [INFO] [GapPlayer.c:502] [tid:390] GapPlayer_pause()
+01-08 16:02:56.172 I/hagodaemon(  280): 20180108 160256.171766 [INFO] [DmcOmxDemuxerCmp.c:5568] [tid:640] componentOnStateChange: [OMX_StateIdle]->[OMX_StatePause]
+01-08 16:02:56.173 I/hagodaemon(  280): 20180108 160256.172429 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:643] componentOnStateChange: [OMX_StateIdle]->[OMX_StatePause]
+01-08 16:02:56.173 I/hagodaemon(  280): 20180108 160256.172705 [INFO] [WmSoundService.cpp:408] [tid:643] [SoundService] nChannels [2], nBitPerSample [16], nSamplingRate [44100]
+01-08 16:02:56.173 I/hagodaemon(  280): 20180108 160256.172878 [INFO] [WmSoundService.cpp:418] [tid:643] [SoundService][Original] eEncoding [OMX_AUDIO_CodingMP3]
+01-08 16:02:56.173 I/hagodaemon(  280): 20180108 160256.173010 [INFO] [WmSoundService.cpp:439] [tid:643] [SoundService][Original] nChannels [2], nBitPerSample [16], nSamplingRate [44100]
+01-08 16:02:56.173 I/hagodaemon(  280): 20180108 160256.173170 [INFO] [WmSoundService.cpp:442] [tid:643] [SoundService][Original] bVbr [0], nBitRate [320000]
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:86] ----- AudioTrack[CreateTrack by PID[293]] -----
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:88] [Tracks]
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:89]   type: Music
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:113] [Codecs]
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:114]   codec: LPCM
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:120]   f_samp: 44100
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:125]   bits_per_samp: 16
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:128] [Channels]
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:129]   num_of_ch: 2
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:130]   ch_config: Stereo
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:141] [Buffers]
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:142]   type: Int
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:143]   bytes: 2
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:144]   mode: Interleaved
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:146] [PreAudioInfo]
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:148]   codec_type: 2
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:150]   bitrate_type: 1
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:151]   bitrate_value: 320
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:152]   f_samp: 44100
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:153]   bits_per_samp: 16
+01-08 16:02:56.177 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceAudioInfoLogs.cc:155]   ch_config: Invalid
+01-08 16:02:56.179 I/hagodaemon(  286): [I|  324|b6c4f000|SS  |SoundServiceImpl.cc:298] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_1] has been created
+01-08 16:02:56.181 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:386|PlayController_ChangePlayState] Exit
+01-08 16:02:56.183 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:373|PlayController_ChangePlayState] Enter
+01-08 16:02:56.183 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:386|PlayController_ChangePlayState] Exit
+01-08 16:02:56.211 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:466|PlayController_SeekTime] Enter
+01-08 16:02:56.215 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:480|PlayController_SeekTime] Exit
+01-08 16:05:32.527 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:534|PlayController_ResetPlaySpeed] Enter
+01-08 16:05:32.528 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:545|PlayController_ResetPlaySpeed] Exit
+01-08 16:05:32.528 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:373|PlayController_ChangePlayState] Enter
+01-08 16:05:32.530 I/hagodaemon(  280): 20180108 160532.529231 [INFO] [GapPlayer.c:469] [tid:390] GapPlayer_play()
+01-08 16:05:32.530 I/hagodaemon(  280): 20180108 160532.529965 [INFO] [DmcOmxDemuxerCmp.c:5568] [tid:640] componentOnStateChange: [OMX_StatePause]->[OMX_StateExecuting]
+01-08 16:05:32.633 I/hagodaemon(  280): 20180108 160532.631722 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:643] componentOnStateChange: [OMX_StatePause]->[OMX_StateExecuting]
+01-08 16:05:32.635 I/hagodaemon(  286): [I|  324|b3e35460|SS  |SoundServiceImpl.cc:512] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_1] received CtrlPacket[track::play]
+01-08 16:05:32.637 I/hagodaemon(  280): 20180108 160532.635512 [INFO] [WmSoundService.cpp:133] [tid:646] WriteWatcher started.
+01-08 16:05:32.638 I/hagodaemon(  280): 20180108 160532.637142 [INFO] [DmcOmxDemuxerCmp.c:4693] [tid:640] audio buffer count = [31/32]
+01-08 16:05:32.668 I/hagodaemon(  286): [I|  324|b3e35460|SS  |PreFilters.cc:515] PreFilters Configuration: DO_NOT_PROCESS
+01-08 16:05:32.668 I/hagodaemon(  286): [I|  324|b3e35460|SS  |SoundServiceImpl.cc:1160] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_1] fades in packet
+01-08 16:05:32.668 I/hagodaemon(  286): [T|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:1098] switches to OperationMode[0]
+01-08 16:05:32.668 I/hagodaemon(  286): [D|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:222] [hw:0,4]
+01-08 16:05:32.696 I/hagodaemon(  286): [T|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:335] !!! not opened
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:26] ----- AudioHalParam [master] -----
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:27] FSamp: [44100]
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:28] NumOfCh: [2]
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:29] ChConfig: [2]
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:30] BufferType: [1]
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:31] BytesOfIntBuffer: [2]
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:32] BufferMode: [1]
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1504] fs = 44100 [Hz]
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1505] channels = 2
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1506] buffer time = 1000090
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1507] period time = 125011
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1508] buffer frames = 0
+01-08 16:05:32.696 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1509] period frames = 0
+01-08 16:05:32.707 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1533] period size = 5513 [frames]
+01-08 16:05:32.707 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1534] buffer size = 44104 [frames]
+01-08 16:05:32.707 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1535] latency = 1000090 [us]
+01-08 16:05:32.707 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1761] start_threshold = 44104
+01-08 16:05:32.707 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1762] stop_threshold = 44104
+01-08 16:05:32.707 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1763] avail_min = -1
+01-08 16:05:32.707 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1764] start_delay = 0
+01-08 16:05:32.707 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:1765] stop_delay = 0
+01-08 16:05:32.707 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:771] frames_to_bytes = 4
+01-08 16:05:32.707 I/hagodaemon(  286): [I|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:772] bytes_per_period = 22052
+01-08 16:05:32.707 I/hagodaemon(  286): [T|  324|b3e35460|AHAL|AudioHalAdlerAlsa.cc:478] not opened
+01-08 16:05:32.709 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:386|PlayController_ChangePlayState] Exit
+
+track playing
+SLEEP FOR 500
+
+01-08 16:06:28.244 I/hagodaemon(  298): [I|  322|b47ff460|PWMG|UsbPoweredMonitor.cc:147] Powered by USB [PowerSupplyUsb]
+01-08 16:06:28.244 I/hagodaemon(  298): [D|  322|b47ff460|PWMG|PowerMgrService.cc:423] FireOnPowered
+01-08 16:06:28.245 I/hagodaemon(  300): [I|  316|b3eff460|UMGR|UsbResumeMonitor.cc:80] Powered by usb insert [PowerSupply]
+01-08 16:06:28.246 I/hagodaemon(  274): [N|  295|b5bb5460|POWR|PowerService.cc:1236] ExternalPowerSupply: 0 -> 1
+01-08 16:06:28.770 I/hagodaemon(  279): [N|  308|b36ff460|UDCS|UsbDeviceConnectionMonitor.cc:544] Detect change connection status : 1
+01-08 16:06:28.770 I/hagodaemon(  279): [N|  308|b36ff460|UDCS|UsbDeviceConnectionService.cc:125] Fires OnConnectEvent : 2
+01-08 16:06:28.771 I/hagodaemon(  291): [I|  309|b6c5e000|CMGR|ConnMgrServiceImpl.cc:397] device[6:MscHost], enabled = [1], connected = [1], rules = [1]
+01-08 16:06:28.773 I/hagodaemon(  301): [T|  321|b6d07000|SMGR|StorageMgrImpl.cc:253] InformEnabledMscHost(enabled: [1], by_boot: [0])
+01-08 16:06:28.889 I/hagodaemon(  274): [N|  295|b63b5460|POWR|PowerService.cc:1218] ChargeStatus: kNoCharge -> kCharging
+01-08 16:06:28.889 I/hagodaemon(  298): [I|  322|b47ff460|PWMG|UsbPoweredMonitor.cc:147] Powered by USB [PowerSupplyUsb]
+01-08 16:06:28.890 I/hagodaemon(  298): [D|  322|b47ff460|PWMG|PowerMgrService.cc:423] FireOnPowered
+01-08 16:06:28.890 I/hagodaemon(  300): [I|  316|b3eff460|UMGR|UsbResumeMonitor.cc:80] Powered by usb insert [PowerSupply]
+01-08 16:06:32.478 I/hagodaemon(  301): [D|  321|b6d07000|SMGR|StorageMgrImpl.cc:1581] StorageStatus: storage[Internal], status[Unmounting]
+01-08 16:06:32.610 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:356|PlayController_ClosePlayer] Enter
+01-08 16:06:32.611 I/hagodaemon(  280): 20180108 160632.610450 [INFO] [GapPlayer.c:517] [tid:390] GapPlayer_stop()
+01-08 16:06:32.611 I/hagodaemon(  280): 20180108 160632.610752 [INFO] [DmcOmxDemuxerCmp.c:5568] [tid:640] componentOnStateChange: [OMX_StateExecuting]->[OMX_StatePause]
+01-08 16:06:32.632 I/hagodaemon(  280): 20180108 160632.631804 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:643] componentOnStateChange: [OMX_StateExecuting]->[OMX_StatePause]
+01-08 16:06:32.726 I/hagodaemon(  280): 20180108 160632.725663 [INFO] [WmSoundService.cpp:167] [tid:643] WriteWatcher joined.
+01-08 16:06:32.728 I/hagodaemon(  280): 20180108 160632.727778 [INFO] [DmcOmxDemuxerCmp.c:5568] [tid:640] componentOnStateChange: [OMX_StatePause]->[OMX_StateIdle]
+01-08 16:06:32.728 I/hagodaemon(  280): 20180108 160632.728630 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:643] componentOnStateChange: [OMX_StatePause]->[OMX_StateIdle]
+01-08 16:06:32.729 I/hagodaemon(  280): 20180108 160632.729011 [INFO] [GapPlayer.c:391] [tid:390] GapPlayer_close()
+01-08 16:06:32.731 I/hagodaemon(  280): 20180108 160632.731020 [INFO] [DmcOmxDemuxerCmp.c:5568] [tid:640] componentOnStateChange: [OMX_StateIdle]->[OMX_StateLoaded]
+01-08 16:06:32.736 I/hagodaemon(  280): 20180108 160632.736318 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:643] componentOnStateChange: [OMX_StateIdle]->[OMX_StateLoaded]
+01-08 16:06:33.008 I/hagodaemon(  286): [I|  324|b3e35460|SS  |SoundServiceImpl.cc:512] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_1] received CtrlPacket[track::stop]
+01-08 16:06:33.008 I/hagodaemon(  286): [I|  324|b3e35460|SS  |SoundServiceImpl.cc:1175] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_1] fades out packet
+01-08 16:06:33.008 I/hagodaemon(  286): [I|  324|b3e35460|SS  |SoundServiceImpl.cc:629] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_1] drains by silent audio Pkts[2] = [100]ms
+01-08 16:06:33.009 I/hagodaemon(  288): [D|  317|b6c83000|VOL |VolumeAdlerOut.cc:589] SetDigitalMute [key=fader mute sdin1][value=1]
+01-08 16:06:33.112 I/hagodaemon(  286): [D|  324|b3e35460|AHAL|AudioHalOutAdlerAlsa.cc:295] [hw:0,4]
+01-08 16:06:33.115 I/hagodaemon(  288): [D|  317|b6c83000|VOL |VolumeAdlerOut.cc:589] SetDigitalMute [key=fader mute sdin1][value=0]
+01-08 16:06:33.116 I/hagodaemon(  286): [I|  324|b3e35460|SS  |SoundServiceImpl.cc:512] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_1] received CtrlPacket[track::destroy]
+01-08 16:06:33.116 I/hagodaemon(  286): [I|  324|b3e35460|SS  |SoundServiceImpl.cc:545] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_1] is ready to destroy
+01-08 16:06:33.117 I/hagodaemon(  286): [I|  324|b5e8d460|SS  |SoundServiceImpl.cc:348] Track[TK_MUSIC_PID_293_PKT_131072_QUE_5_1] has been destroyed
+01-08 16:06:33.119 I/hagodaemon(  280): 20180108 160633.119180 [INFO] [GapPlayer.c:517] [tid:390] GapPlayer_stop()
+01-08 16:06:33.120 I/hagodaemon(  280): 20180108 160633.119829 [INFO] [GapPlayer.c:391] [tid:390] GapPlayer_close()
+01-08 16:06:33.121 I/hagodaemon(  280): [I|  293|b6cab000|PLYRSRVC|PlayerServiceService.cc:367|PlayController_ClosePlayer] Exit
+01-08 16:06:33.122 I/hagodaemon(  280): [I|  293|b46ff460|PLYRSRVC|PlayerServiceService.cc:660|OnPlayStatusUpdated] Player is closed.
+01-08 16:06:33.269 I/hagodaemon(  301): [D|  321|b6b8c460|SMGR|StorageMgrImpl.cc:1581] StorageStatus: storage[Internal], status[Unmounted]
+01-08 16:06:33.269 I/hagodaemon(  301): [D|  321|b6b8c460|SMGR|StorageMgrImpl.cc:1581] StorageStatus: storage[Internal], status[UnmountExported]
+SLEEP FOR 100

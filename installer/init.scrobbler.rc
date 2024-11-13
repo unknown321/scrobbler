@@ -1,0 +1,8 @@
+on boot
+  start scrobbler
+
+service scrobbler /bin/logwrapper /system/vendor/unknown321/bin/scrobbler
+  setenv LOGLEVEL info
+  user root
+  group root
+  oneshot

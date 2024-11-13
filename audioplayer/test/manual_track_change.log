@@ -1,0 +1,8 @@
+I/hagodaemon(  281): 20240415 121613.946638 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:1859] componentOnStateChange: [OMX_StatePause]->[OMX_StateExecuting]
+I/hagodaemon(  281): 20240415 122315.648096 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:1859] componentOnStateChange: [OMX_StateExecuting]->[OMX_StatePause]
+I/hagodaemon(  281): 20240415 122315.686480 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:1859] componentOnStateChange: [OMX_StatePause]->[OMX_StateIdle]
+I/hagodaemon(  281): 20240415 122315.696993 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:1859] componentOnStateChange: [OMX_StateIdle]->[OMX_StateLoaded]
+I/hagodaemon(  281): 20240415 122316.132213 [INFO] [DmcOmxDemuxerCmp.c:2487] [tid:1869] content URI: /data/mnt/internal/MUSIC/2.flac
+I/hagodaemon(  281): 20240415 122316.171643 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:1871] componentOnStateChange: [OMX_StateLoaded]->[OMX_StateIdle]
+I/hagodaemon(  281): 20240415 122316.174278 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:1871] componentOnStateChange: [OMX_StateIdle]->[OMX_StatePause]
+I/hagodaemon(  281): 20240415 122316.341922 [INFO] [DmcAndroidAudioRendererCmp.c:1567] [tid:1871] componentOnStateChange: [OMX_StatePause]->[OMX_StateExecuting]
