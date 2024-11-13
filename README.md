@@ -1,5 +1,5 @@
-nw-scrob
-========
+Scrobbler
+=========
 
 Scrobbler for Linux-based NW-A50 Series WALKMAN® portable players.
 
