@@ -9,9 +9,6 @@ Might work for WM1A/WM1Z, ZX300, NW-A40/A30.
 
 Creates `.scrobbler.log` on internal storage.
 
-[Alternative implementation ideas](./HOW.md)
-
-
 ### Requirements
   - make
   - Go >= 1.22.1
