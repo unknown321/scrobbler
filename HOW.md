@@ -171,3 +171,5 @@ Viable, but clunky.
 ##### Reading directly from kernel buffer
 
 See source code.
+
+Note to self: SoundServiceFw *must* have logs enabled and set to 8.

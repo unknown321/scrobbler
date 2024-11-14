@@ -33,12 +33,14 @@ var Commit = func() string {
 var SystemLogFile = "/dev/log/main"
 var ListenPercent = 50
 
-// SetupLog used to write log into file on /contents/ partition
-// It caused filesystem corruption after connecting device as mass storage
 func SetupLog() {
 	level := slog.LevelInfo
 	ll := os.Getenv("LOGLEVEL")
 	if strings.ToLower(ll) == "debug" {
+		level = slog.LevelDebug
+	}
+
+	if _, err := os.Open("/tmp/scrd"); err == nil {
 		level = slog.LevelDebug
 	}
 

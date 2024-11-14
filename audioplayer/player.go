@@ -119,10 +119,12 @@ func (p *AudioPlayer) WithResolver(r resolver.Resolver) *AudioPlayer {
 
 func (p *AudioPlayer) Resolve(uri string) (*resolver.Content, error) {
 	if uri == "" {
+		slog.Debug("empty uri")
 		return &resolver.Content{}, nil
 	}
 
 	if strings.Contains(uri, BeepIgnore) {
+		slog.Debug("ignoring beep")
 		return &resolver.Content{}, nil
 	}
 
@@ -130,7 +132,15 @@ func (p *AudioPlayer) Resolve(uri string) (*resolver.Content, error) {
 		return &resolver.Content{}, fmt.Errorf("no resolver provided")
 	}
 
-	return p.resolver.Resolve(uri)
+	var err error
+	var c *resolver.Content
+	if c, err = p.resolver.Resolve(uri); err != nil {
+		return nil, err
+	}
+
+	slog.Debug("resolved", "track", c.Track, "artist", c.Artist, "uri", uri)
+
+	return c, nil
 }
 
 func (p *AudioPlayer) WithClock(clock Clock) *AudioPlayer {
@@ -255,6 +265,7 @@ func (p *AudioPlayer) Close() {
 //
 // At this point current track has been destroyed, there is no info about prepared track yet
 func (p *AudioPlayer) DestroyTrack(s string) {
+	slog.Debug("destroyed track %s", "track", s)
 	if !p.CurrentContent.Rating && p.CurrentContent.Valid() && p.CurrentTrack.PlayingFor > 2 {
 		e := playerevents.PlayerEventTrackListened{Content: *p.CurrentContent}
 		p.emitter <- e

@@ -33,8 +33,7 @@ type Content struct {
 	Bitrate        int
 	Channels       int
 	BitDepth       int
-	//filename       string
-	Attempted bool
+	Attempted      bool
 }
 
 type DBContent struct {
