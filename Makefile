@@ -10,16 +10,25 @@ test:
 	go test -v ./...
 
 clean:
-	-rm $(OUT) nw-installer/installer/userdata.tar installer/$(OUT)
+	-rm $(OUT) nw-installer/installer/userdata.tar installer/$(OUT) LICENSE_3rdparty
 
 nw-installer/installer/userdata.tar:
 	$(MAKE) -C nw-installer prepare
 	cp $(OUT) installer/
 	$(UPX) -qqq --best installer/$(OUT)
+	cat LICENSE LICENSE_3rdparty > nw-installer/installer/LICENSE.txt.user
 	tar -C installer -cf nw-installer/installer/userdata.tar \
 		init.scrobbler.rc \
 		run.sh \
 		scrobbler
+
+LICENSE_3rdparty:
+	$(ECHO) -e "\n***\nsqlite:\n" > $@
+	cat vendor/modernc.org/sqlite/LICENSE >> $@
+	$(ECHO) -e "\n***\ngolang text module\n" >> $@
+	cat vendor/golang.org/x/text/LICENSE >> $@
+	$(ECHO) -e "\n***\ngoogle go-cmp module\n" >> $@
+	cat vendor/github.com/google/go-cmp/LICENSE >> $@
 
 $(OUT): build
 
