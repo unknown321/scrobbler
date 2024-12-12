@@ -34,7 +34,10 @@ LICENSE_3rdparty:
 
 $(OUT): build
 
-release: clean LICENSE_3rdparty $(OUT) nw-installer/installer/userdata.tar
+vendor:
+	go mod vendor
+
+release: clean vendor LICENSE_3rdparty $(OUT) nw-installer/installer/userdata.tar
 	$(MAKE) -C nw-installer OUTFILE=$(PRODUCT).exe APPNAME=$(PRODUCT) build
 
 push:
