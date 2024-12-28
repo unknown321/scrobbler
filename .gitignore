@@ -7,3 +7,4 @@ misc/fixes/adb
 *.exe
 scrobbler
 LICENSE_3rdparty
+release/

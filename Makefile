@@ -13,6 +13,7 @@ test:
 clean:
 	$(MAKE) -C nw-installer OUTFILE=$(PRODUCT).exe APPNAME=$(PRODUCT) clean
 	-rm $(OUT) nw-installer/installer/userdata.tar installer/$(OUT) LICENSE_3rdparty
+	-rm -rf release
 
 nw-installer/installer/userdata.tar:
 	$(MAKE) -C nw-installer prepare
@@ -23,6 +24,12 @@ nw-installer/installer/userdata.tar:
 		init.scrobbler.rc \
 		run.sh \
 		scrobbler
+
+uninstaller:
+	$(MAKE) -C nw-installer prepare
+	cat LICENSE LICENSE_3rdparty > nw-installer/installer/windows/LICENSE.txt.user
+	tar -C uninstaller -cf nw-installer/installer/userdata.tar \
+		run.sh
 
 LICENSE_3rdparty:
 	@$(ECHO) -e "\n***\nsqlite:\n" > $@
@@ -39,6 +46,22 @@ vendor:
 
 release: clean vendor LICENSE_3rdparty $(OUT) nw-installer/installer/userdata.tar
 	$(MAKE) -C nw-installer OUTFILE=$(PRODUCT).exe APPNAME=$(PRODUCT) build
+	mkdir -p release/installer
+	cd nw-installer/installer/stock/ && tar -czvf stock.tar.gz NW_WM_FW.UPG
+	cd nw-installer/installer/walkmanOne/ && tar -czvf walkmanOne.tar.gz NW_WM_FW.UPG
+	mv nw-installer/installer/walkmanOne/walkmanOne.tar.gz release/installer
+	mv nw-installer/installer/stock/stock.tar.gz release/installer
+	mv nw-installer/installer/windows/${PRODUCT}.exe release/installer
+	$(MAKE) -C nw-installer OUTFILE=$(PRODUCT).uninstaller.exe APPNAME=$(PRODUCT)-uninstaller clean
+	$(MAKE) uninstaller
+	$(MAKE) -C nw-installer OUTFILE=$(PRODUCT).uninstaller.exe APPNAME=$(PRODUCT)-uninstaller build
+	mkdir -p release/uninstaller
+	cd nw-installer/installer/stock/ && tar -czvf stock.uninstaller.tar.gz NW_WM_FW.UPG
+	cd nw-installer/installer/walkmanOne/ && tar -czvf walkmanOne.uninstaller.tar.gz NW_WM_FW.UPG
+	mv nw-installer/installer/walkmanOne/walkmanOne.uninstaller.tar.gz release/uninstaller
+	mv nw-installer/installer/stock/stock.uninstaller.tar.gz release/uninstaller
+	mv nw-installer/installer/windows/${PRODUCT}.uninstaller.exe release/uninstaller
+
 
 push:
 	adb wait-for-device push $(OUT) /system/vendor/unknown321/bin/
@@ -47,4 +70,4 @@ fast: build push
 
 .DEFAULT_GOAL := build
 
-.PHONY: build
+.PHONY: build uninstaller release
