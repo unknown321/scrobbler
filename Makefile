@@ -55,8 +55,10 @@ release: clean vendor LICENSE_3rdparty $(OUT) nw-installer/installer/userdata.ta
 	mkdir -p release/installer/
 	cd nw-installer/installer/nw-a50/ && tar -czvf nw-a50.tar.gz NW_WM_FW.UPG
 	cd nw-installer/installer/nw-a40/ && tar -czvf nw-a40.tar.gz NW_WM_FW.UPG
+	cd nw-installer/installer/nw-a30/ && tar -czvf nw-a30.tar.gz NW_WM_FW.UPG
 	cd nw-installer/installer/walkmanOne/ && tar -czvf walkmanOne.tar.gz NW_WM_FW.UPG
 	mv nw-installer/installer/walkmanOne/walkmanOne.tar.gz release/installer
+	mv nw-installer/installer/nw-a30/nw-a30.tar.gz release/installer
 	mv nw-installer/installer/nw-a40/nw-a40.tar.gz release/installer
 	mv nw-installer/installer/nw-a50/nw-a50.tar.gz release/installer
 	mv nw-installer/installer/windows/${PRODUCT}.exe release/installer/${PRODUCT}.$(shell date --iso).$(shell git log -1 --format=%h).exe
@@ -66,10 +68,12 @@ release: clean vendor LICENSE_3rdparty $(OUT) nw-installer/installer/userdata.ta
 	mkdir -p release/uninstaller
 	cd nw-installer/installer/nw-a50/ && tar -czvf nw-a50.uninstaller.tar.gz NW_WM_FW.UPG
 	cd nw-installer/installer/nw-a40/ && tar -czvf nw-a40.uninstaller.tar.gz NW_WM_FW.UPG
+	cd nw-installer/installer/nw-a30/ && tar -czvf nw-a30.uninstaller.tar.gz NW_WM_FW.UPG
 	cd nw-installer/installer/walkmanOne/ && tar -czvf walkmanOne.uninstaller.tar.gz NW_WM_FW.UPG
 	mv nw-installer/installer/walkmanOne/walkmanOne.uninstaller.tar.gz release/uninstaller
 	mv nw-installer/installer/nw-a50/nw-a50.uninstaller.tar.gz release/uninstaller
 	mv nw-installer/installer/nw-a40/nw-a40.uninstaller.tar.gz release/uninstaller
+	mv nw-installer/installer/nw-a30/nw-a30.uninstaller.tar.gz release/uninstaller
 	mv nw-installer/installer/windows/${PRODUCT}.uninstaller.exe release/uninstaller
 
 
