@@ -11,7 +11,7 @@ Creates `.scrobbler.log` on internal storage.
 |-----------|-------|-------------|------------------|
 | NW-A50    | ✅     | ✅           |                  |
 | NW-A40    | ✅     | ✅           | community tested |
-| NW-A30    | ?     |             | needs testing    |
+| NW-A30    | ?     | ?           | needs testing    |
 | NW-ZX300  | ?     | ?           | needs testing    |
 | NW-WM1A/Z | ?     | ?           | needs testing    |
 | DMP-Z1    | ?     | ?           | needs testing    |
