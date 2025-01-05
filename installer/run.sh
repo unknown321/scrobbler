@@ -29,6 +29,8 @@ install() {
   fi
 }
 
+log "installer for $(cat product_info)"
+
 mount -t ext4 -o rw /emmc@android /system
 
 install

@@ -8,3 +8,5 @@ misc/fixes/adb
 scrobbler
 LICENSE_3rdparty
 release/
+product_info
+*.tar.gz

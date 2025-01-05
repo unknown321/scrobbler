@@ -3,17 +3,24 @@ Scrobbler
 
 Scrobbler for Linux-based NW-A50 Series WALKMAN® portable players.
 
-Supported models: NW-A50Series.
-
-Might work for WM1A/WM1Z, ZX300, NW-A40/A30.
-
 Creates `.scrobbler.log` on internal storage.
 
-### Requirements
-  - make
-  - Go >= 1.22.1
+### Device support
+
+| Device    | Stock | Walkman One | Notes            |
+|-----------|-------|-------------|------------------|
+| NW-A50    | ✅     | ✅           |                  |
+| NW-A40    | ✅     | ✅           | community tested |
+| NW-A30    | ?     |             | needs testing    |
+| NW-ZX300  | ?     | ?           | needs testing    |
+| NW-WM1A/Z | ?     | ?           | needs testing    |
+| DMP-Z1    | ?     | ?           | needs testing    |
 
 ### Build
+
+#### Requirements
+- make
+- Go >= 1.22.1
 
 ```shell
 make build
@@ -26,11 +33,11 @@ git submodule update --recursive --init
 make release
 ```
 
-Grab Windows installer/UPG files from `nw-installer/installer/{windows/stock/walkmanOne}` directories.
+Grab Windows installer/UPG files from `release` directory.
 
 ### Installation
 
-See [INSTALL.md](INSTALL.md)
+See [INSTALL.md](./INSTALL.md)
 
 ### Usage
 Before you start, `Device Settings -> Beep Settings` option __must__ be turned off:

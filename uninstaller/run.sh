@@ -26,6 +26,8 @@ uninstall() {
   busybox rm -f ${INITRD_UNPACKED}/init.${BINARY}.rc
 }
 
+log "uninstaller for $(cat product_info)"
+
 mount -t ext4 -o rw /emmc@android /system
 
 uninstall
