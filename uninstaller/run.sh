@@ -2,6 +2,10 @@
 VENDOR=/system/vendor/unknown321/
 BINARY=scrobbler
 
+GREP="/xbin/busybox grep"
+RM="/xbin/busybox rm"
+SED="/xbin/busybox sed"
+
 log()
 {
         oldIFS=$IFS
@@ -15,15 +19,15 @@ log()
 
 uninstall() {
   log "uninstalling ${BINARY}"
-  busybox rm -f ${VENDOR}/bin/${BINARY}
+  ${RM} -f ${VENDOR}/bin/${BINARY}
 
   log "uninstalling ${BINARY} service"
-  grep -q "init.${BINARY}.rc" "${INITRD_UNPACKED}/init.rc"
+  ${GREP} -q "init.${BINARY}.rc" "${INITRD_UNPACKED}/init.rc"
   if test $? -eq 0; then
     log "removing service"
-    busybox sed -i "/import init.${BINARY}.rc/d" ${INITRD_UNPACKED}/init.rc
+    ${SED} -i "/import init.${BINARY}.rc/d" ${INITRD_UNPACKED}/init.rc
   fi
-  busybox rm -f ${INITRD_UNPACKED}/init.${BINARY}.rc
+  ${RM} -f ${INITRD_UNPACKED}/init.${BINARY}.rc
 }
 
 log "uninstaller for $(cat product_info)"
