@@ -12,7 +12,7 @@ Creates `.scrobbler.log` on internal storage.
 | NW-A50          | ✅     | ✅           |                                |
 | └──NW-A50Z      | ✅     | n/a         | mod is unavailable             |
 | NW-A40          | ✅     | ✅           | community tested               |
-| └──[A50 mod][1] | ✅     | n/a         | build available, needs testing |
+| └──[A50 mod][1] | ✅     | n/a         |                                |
 | NW-A30          | ?     | ?           | build available, needs testing |
 | NW-ZX300        | ?     | ?           | build available, needs testing |
 | NW-WM1A         | ?     | ?           | build available, needs testing |
