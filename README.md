@@ -53,7 +53,6 @@ Why? Beeps are inserted in play queue as regular tracks; it resets currently pla
 
 After that just play some tracks and check for `.scrobbler.log` in root directory on your device.
 
-### Misc
+### See also
 
-[Possible approaches](HOW.md)
-
+https://github.com/unknown321/wampy
