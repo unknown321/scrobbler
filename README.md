@@ -7,14 +7,19 @@ Creates `.scrobbler.log` on internal storage.
 
 ### Device support
 
-| Device    | Stock | Walkman One | Notes            |
-|-----------|-------|-------------|------------------|
-| NW-A50    | ✅     | ✅           |                  |
-| NW-A40    | ✅     | ✅           | community tested |
-| NW-A30    | ?     | ?           | needs testing    |
-| NW-ZX300  | ?     | ?           | needs testing    |
-| NW-WM1A/Z | ?     | ?           | needs testing    |
-| DMP-Z1    | ?     | ?           | needs testing    |
+| Device          | Stock | Walkman One | Notes                          |
+|-----------------|-------|-------------|--------------------------------|
+| NW-A50          | ✅     | ✅           |                                |
+| └──NW-A50Z      | ✅     | n/a         | mod is unavailable             |
+| NW-A40          | ✅     | ✅           | community tested               |
+| └──[A50 mod][1] | ✅     | n/a         | build available, needs testing |
+| NW-A30          | ?     | ?           | build available, needs testing |
+| NW-ZX300        | ?     | ?           | build available, needs testing |
+| NW-WM1A         | ?     | ?           | build available, needs testing |
+| NW-WM1Z         | ?     | ?           | build available, needs testing |
+| DMP-Z1          | ?     | n/a         | build available, needs testing |
+
+[1]: https://www.mrwalkman.com/p/nw-a40-stock-update.html
 
 ### Build
 
