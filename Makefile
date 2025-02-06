@@ -57,8 +57,7 @@ release: clean vendor LICENSE_3rdparty $(OUT) nw-installer/installer/userdata.ta
 	cd nw-installer/installer/nw-a50/ && tar -czvf ../../../release/uninstaller/nw-a50.uninstaller.tar.gz NW_WM_FW.UPG && rm NW_WM_FW.UPG
 	cd nw-installer/installer/nw-a40/ && tar -czvf ../../../release/uninstaller/nw-a40.uninstaller.tar.gz NW_WM_FW.UPG && rm NW_WM_FW.UPG
 	cd nw-installer/installer/nw-a30/ && tar -czvf ../../../release/uninstaller/nw-a30.uninstaller.tar.gz NW_WM_FW.UPG && rm NW_WM_FW.UPG
-	cd nw-installer/installer/nw-wm1a/ && tar -czvf ../../../release/uninstaller/nw-wm1a.uninstaller.tar.gz NW_WM_FW.UPG && rm NW_WM_FW.UPG
-	cd nw-installer/installer/nw-wm1z/ && tar -czvf ../../../release/uninstaller/nw-wm1z.uninstaller.tar.gz NW_WM_FW.UPG && rm NW_WM_FW.UPG
+	cd nw-installer/installer/nw-wm1a/ && tar -czvf ../../../release/uninstaller/nw-wm1az.uninstaller.tar.gz NW_WM_FW.UPG && rm NW_WM_FW.UPG
 	cd nw-installer/installer/nw-zx300/ && tar -czvf ../../../release/uninstaller/nw-zx300.uninstaller.tar.gz NW_WM_FW.UPG && rm NW_WM_FW.UPG
 	cd nw-installer/installer/dmp-z1/ && tar -czvf ../../../release/uninstaller/dmp-z1.uninstaller.tar.gz NW_WM_FW.UPG && rm NW_WM_FW.UPG
 	cd nw-installer/installer/a50z/ && tar -czvf ../../../release/uninstaller/a50z.uninstaller.tar.gz NW_WM_FW.UPG && rm NW_WM_FW.UPG
@@ -72,8 +71,7 @@ release: clean vendor LICENSE_3rdparty $(OUT) nw-installer/installer/userdata.ta
 	cd nw-installer/installer/nw-a50/ && tar -czvf ../../../release/installer/nw-a50.tar.gz NW_WM_FW.UPG
 	cd nw-installer/installer/nw-a40/ && tar -czvf ../../../release/installer/nw-a40.tar.gz NW_WM_FW.UPG
 	cd nw-installer/installer/nw-a30/ && tar -czvf ../../../release/installer/nw-a30.tar.gz NW_WM_FW.UPG
-	cd nw-installer/installer/nw-wm1a/ && tar -czvf ../../../release/installer/nw-wm1a.tar.gz NW_WM_FW.UPG
-	cd nw-installer/installer/nw-wm1z/ && tar -czvf ../../../release/installer/nw-wm1z.tar.gz NW_WM_FW.UPG
+	cd nw-installer/installer/nw-wm1a/ && tar -czvf ../../../release/installer/nw-wm1az.tar.gz NW_WM_FW.UPG
 	cd nw-installer/installer/nw-zx300/ && tar -czvf ../../../release/installer/nw-zx300.tar.gz NW_WM_FW.UPG
 	cd nw-installer/installer/dmp-z1/ && tar -czvf ../../../release/installer/dmp-z1.tar.gz NW_WM_FW.UPG
 	cd nw-installer/installer/a50z/ && tar -czvf ../../../release/installer/a50z.tar.gz NW_WM_FW.UPG

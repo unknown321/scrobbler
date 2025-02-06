@@ -1,7 +1,7 @@
 Scrobbler
 =========
 
-Scrobbler for Linux-based NW-A50 Series WALKMAN® portable players.
+Scrobbler for Linux-based NW Series WALKMAN® portable players.
 
 Creates `.scrobbler.log` on internal storage.
 
@@ -15,8 +15,7 @@ Creates `.scrobbler.log` on internal storage.
 | └──[A50 mod][1] | ✅     | n/a         |                                |
 | NW-A30          | ?     | ?           | build available, needs testing |
 | NW-ZX300        | ?     | ?           | build available, needs testing |
-| NW-WM1A         | ?     | ?           | build available, needs testing |
-| NW-WM1Z         | ?     | ?           | build available, needs testing |
+| NW-WM1A/Z       | ?     | ?           | build available, needs testing |
 | DMP-Z1          | ?     | n/a         | build available, needs testing |
 
 [1]: https://www.mrwalkman.com/p/nw-a40-stock-update.html
