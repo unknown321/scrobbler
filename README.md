@@ -13,7 +13,7 @@ Creates `.scrobbler.log` on internal storage.
 | └──NW-A50Z      | ✅     | n/a         | mod is unavailable             |
 | NW-A40          | ✅     | ✅           | community tested               |
 | └──[A50 mod][1] | ✅     | n/a         |                                |
-| NW-A30          | ?     | ?           | build available, needs testing |
+| NW-A30          | ?     | ✅           | build available, needs testing |
 | NW-ZX300        | ?     | ?           | build available, needs testing |
 | NW-WM1A/Z       | ?     | ?           | build available, needs testing |
 | DMP-Z1          | ?     | n/a         | build available, needs testing |
