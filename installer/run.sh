@@ -23,7 +23,7 @@ install() {
   log "installing ${BINARY}"
   ${MKDIR} -p ${VENDOR}/bin/
   ${CP} ${BINARY} ${VENDOR}/bin/
-  ${CHMOD} 0744 ${VENDOR}/bin/${BINARY}
+  ${CHMOD} 0755 ${VENDOR}/bin/${BINARY}
 
   log "installing ${BINARY} service"
   ${CP} "init.${BINARY}.rc" ${INITRD_UNPACKED}/
